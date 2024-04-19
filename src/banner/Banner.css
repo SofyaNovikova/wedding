@@ -1,0 +1,6 @@
+.banner {
+    height: 100%;
+    width: 100%;
+    clip-path: inset(10px round 14px);
+    overflow: hidden;
+}

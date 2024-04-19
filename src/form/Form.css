@@ -1,0 +1,25 @@
+
+.form-container {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.form-container .title {
+    margin-bottom: 20px;
+}
+.form-container .text {
+    margin-top: 10px;
+}
+
+.form-button {
+    width: 100%;
+    border: 1px solid #002140;
+    border-radius: 14px;
+    height: 46px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #002140;
+    font-family: 'Philosopher';
+}

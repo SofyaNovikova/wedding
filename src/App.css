@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Philosopher";
+  src: url("./font/Philosopher-Regular.ttf");
+}
+
+.app {
+  font-family: "Philosopher";
+}
+
+.top-container {
+  -webkit-box-shadow: 0px 6px 13px 0px rgba(140, 140, 140, 1);
+  -moz-box-shadow: 0px 6px 13px 0px rgba(140, 140, 140, 1);
+  box-shadow: 0px 6px 13px 0px rgba(140, 140, 140, 1);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #002140;
+}
+.text {
+  font-size: 14px;
+  color: #002140;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+}
