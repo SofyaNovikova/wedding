@@ -5,6 +5,7 @@ import { Invitation } from "invitation/Invitation";
 import { Form } from "form/Form";
 import { Palette } from "palette/Palette";
 import { Place } from "place/Place";
+import { Contact } from "contact/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Form />
       <Palette />
       <Place />
+      <Contact />
     </div>
   );
 }

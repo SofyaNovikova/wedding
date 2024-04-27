@@ -44,7 +44,7 @@ export const Place = () => {
         </Banner>
         <img src={TreeImage.default} alt="oak" className="tree-image" />
       </div>
-      <div className="map">
+      <div className="map-container">
         <YMaps>
           <Map width="100%" defaultState={{ center: coords, zoom: 15 }}>
             <Placemark geometry={coords} />
