@@ -3,6 +3,8 @@ import "./App.css";
 import { ImageLogo } from "image/ImageLogo";
 import { Invitation } from "invitation/Invitation";
 import { Form } from "form/Form";
+import { Palette } from "palette/Palette";
+import { Place } from "place/Place";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       </div>
       <Invitation />
       <Form />
+      <Palette />
+      <Place />
     </div>
   );
 }

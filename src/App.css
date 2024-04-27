@@ -23,8 +23,12 @@
   font-size: 14px;
   color: #002140;
   text-align: justify;
+  margin-top: 10px;
 }
-
+.container {
+  margin-top: 30px;
+  padding: 0 20px;
+}
 @media only screen and (max-width: 600px) {
   body {
     width: 100vw;

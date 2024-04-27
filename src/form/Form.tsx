@@ -5,7 +5,7 @@ const FORM_LINK = 'https://forms.gle/GmVZHjQoQHQEeWo77';
 export const Form = () => {
     const onClick  = () => window.open(FORM_LINK, '_blank')
   return (
-    <div className="form-container">
+    <div className="container">
       <p className="title">
         Здесь вы найдете
         <br />

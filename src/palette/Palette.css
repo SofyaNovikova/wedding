@@ -1,0 +1,15 @@
+.palette {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+.palette-block {
+  height: 70px;
+  -webkit-box-shadow: 6px 6px 13px 2px rgba(173, 173, 173, 1);
+  -moz-box-shadow: 6px 6px 13px 2px rgba(173, 173, 173, 1);
+  box-shadow: 6px 6px 13px 2px rgba(173, 173, 173, 1);
+  border-radius: 24px;
+}
