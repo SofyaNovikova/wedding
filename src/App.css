@@ -3,6 +3,11 @@
   src: url("./font/Philosopher-Regular.ttf");
 }
 
+body {
+  width: 400px;
+  margin: auto;
+}
+
 .app {
   font-family: "Philosopher";
 }
@@ -33,5 +38,6 @@
   body {
     width: 100vw;
     height: 100vh;
+    margin: 0;
   }
 }
