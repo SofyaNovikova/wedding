@@ -1,0 +1,49 @@
+.contact {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+.contact:last-child {
+    top: -70px;
+    align-items: center;
+}
+
+.circle {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle .photo {
+    position: absolute;
+    bottom: 0;
+}
+.sergey-photo {
+    width: 158px;
+}
+.sonya-photo {
+    width: 145px;
+    right: 13px;
+}
+
+.sergey-info {
+    margin-top: 30px;
+}
+.sergey-info .title, .sergey-info .phone {
+    text-align: end;
+}
+.sonya-info .title, .sonya-info .phone {
+    text-align: start;
+}
+
+.phone {
+    display: block;
+    margin-top: 10px;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+} 

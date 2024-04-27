@@ -1,0 +1,40 @@
+.place-container {
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.place-content {
+    width: 50%;
+    padding: 20px 32px;
+}
+
+.place-content .text {
+    text-align: left;
+}
+
+.tree-image {
+    height: 220px;
+    position: absolute;
+    right: -15px;
+    z-index: 10;
+    bottom: -12px;
+}
+
+.links {
+    display: flex;
+    margin-top: 10px;
+}
+
+.links .link {
+    display: block;
+    margin-right: 15px;
+}
+
+.links .icon {
+    height: 24px;
+}
+
+.map-container {
+    margin-top: 30px;
+}

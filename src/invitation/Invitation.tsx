@@ -6,7 +6,7 @@ import './Invitation.css'
 export const Invitation = () => {
   return (
     <div className="invitation-container">
-      <Banner background="#C4C4C4">
+      <Banner background="#B2CFB8">
         <div className="invitation-content">
         <img src={Image.default} alt="we" className="invitation-image" />
         <p className="invitation-title">
