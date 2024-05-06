@@ -1,9 +1,9 @@
 import "./Form.css";
 
-const FORM_LINK = 'https://forms.gle/GmVZHjQoQHQEeWo77';
+const FORM_LINK = "https://forms.gle/GmVZHjQoQHQEeWo77";
 
 export const Form = () => {
-    const onClick  = () => window.open(FORM_LINK, '_blank')
+  const onClick = () => window.open(FORM_LINK, "_blank");
   return (
     <div className="container">
       <p className="title">
@@ -18,7 +18,12 @@ export const Form = () => {
         Также будем вам благодарны за заполнение анкеты, где можно указать
         предпочитаемый вид алкоголя и наличие пищевой аллергии.
       </p>
-      <button onClick={onClick} className="form-button">Заполнить анкету</button>
+      <p className="text bold underline centered">
+        Пожалуйста, заполните анкету на каждого гостя в отдельности!
+      </p>
+      <button onClick={onClick} className="form-button">
+        Заполнить анкету
+      </button>
     </div>
   );
 };

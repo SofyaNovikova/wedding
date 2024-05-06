@@ -34,6 +34,18 @@ body {
   margin-top: 30px;
   padding: 0 20px;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.centered {
+  text-align: center;
+}
 @media only screen and (max-width: 600px) {
   body {
     width: 100vw;
