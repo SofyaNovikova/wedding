@@ -1,6 +1,6 @@
 import "./Form.css";
 
-const FORM_LINK = "https://forms.gle/GmVZHjQoQHQEeWo77";
+const FORM_LINK = "https://forms.gle/oYQqLrhyAjMnwhWB6";
 
 export const Form = () => {
   const onClick = () => window.open(FORM_LINK, "_blank");
