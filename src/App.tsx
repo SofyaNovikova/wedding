@@ -17,7 +17,7 @@ function App() {
       </div>
       <Invitation />
       <Form />
-      <Palette />
+{/*       <Palette /> */}
       <Place />
       <Faq />
       <Contact />
