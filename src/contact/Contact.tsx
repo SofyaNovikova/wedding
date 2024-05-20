@@ -36,7 +36,7 @@ export const Contact = () => {
       </div>
       <div className="contact">
         <div className="info sonya-info">
-          <p className="title">Sonya</p>
+          <p className="title">Соня</p>
           <a className="phone" href="tel:+375293030547">+375-29-303-05-47</a>
         </div>
         <Circle backgroundColor="#E49E91">
