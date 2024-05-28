@@ -80,7 +80,7 @@ export const guests: Record<string, Guest> = {
   },
   "f28208c0-4c44-4036-b4e8-93d11e37e4e7": {
     id: "f28208c0-4c44-4036-b4e8-93d11e37e4e7",
-    name: "Наталья, Владимир и Максим",
+    name: "Комаровы",
   },
   "f9379130-ed2f-4e76-8cf9-d6631109f91e": {
     id: "f9379130-ed2f-4e76-8cf9-d6631109f91e",
