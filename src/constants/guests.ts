@@ -56,7 +56,7 @@ export const guests: Record<string, Guest> = {
   },
   "3efacd4c-7556-4632-9794-63e003c69973": {
     id: "3efacd4c-7556-4632-9794-63e003c69973",
-    name: "Анжела и Ваня", // TODO ДЕТИ
+    name: "Анжела и Ваня",
   },
   "e913034b-af9f-43f5-99c3-1412d8ec8aa9": {
     id: "e913034b-af9f-43f5-99c3-1412d8ec8aa9",
@@ -64,7 +64,7 @@ export const guests: Record<string, Guest> = {
   },
   "57f48970-b03f-4aac-a2fb-496bce6b7ba2": {
     id: "57f48970-b03f-4aac-a2fb-496bce6b7ba2",
-    name: "Наталья и ", // TODO муж и дети
+    name: "Наталья, Владимир и Максим",
   },
   "d5574a00-ffa7-44b4-a4ab-d8b2324c4eff": {
     id: "d5574a00-ffa7-44b4-a4ab-d8b2324c4eff",
@@ -76,11 +76,11 @@ export const guests: Record<string, Guest> = {
   },
   "8ec9749f-646c-428a-808e-02dfe5ada073": {
     id: "8ec9749f-646c-428a-808e-02dfe5ada073",
-    name: "Татьяна, Денис и ", // TODO дети
+    name: "Татьяна, Денис и Даша",
   },
   "f28208c0-4c44-4036-b4e8-93d11e37e4e7": {
     id: "f28208c0-4c44-4036-b4e8-93d11e37e4e7",
-    name: "Наталья и Владимир", // TODO дети ?
+    name: "Наталья, Владимир и Максим",
   },
   "f9379130-ed2f-4e76-8cf9-d6631109f91e": {
     id: "f9379130-ed2f-4e76-8cf9-d6631109f91e",
@@ -106,6 +106,6 @@ export const guests: Record<string, Guest> = {
   },
   "92ad0d4f-22ac-4351-b38a-6fcd3894f49b": {
     id: "92ad0d4f-22ac-4351-b38a-6fcd3894f49b",
-    name: "Светлана и ", // TODO муж и дети
+    name: "Сергей и Оля",
   },
 };
